@@ -6,7 +6,7 @@ const dbConfig = {
     user: 'root',
     password: 'root',  // Senha padrão do XAMPP é vazia
     database: 'hopi_hari_db',
-    porta : 3307
+    port: 3307
 };
 
 const pool = mysql.createPool(dbConfig);
