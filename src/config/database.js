@@ -4,8 +4,9 @@ const mysql = require('mysql2/promise');
 const dbConfig = {
     host: 'localhost',
     user: 'root',
-    password: '',  // Senha padrão do XAMPP é vazia
-    database: 'hopi_hari_db'
+    password: 'root',  // Senha padrão do XAMPP é vazia
+    database: 'hopi_hari_db',
+    porta : 3307
 };
 
 const pool = mysql.createPool(dbConfig);
